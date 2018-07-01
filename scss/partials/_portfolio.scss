@@ -1,0 +1,42 @@
+.portfolio{
+    padding: 15% 5%;
+    background-color: #fff;
+
+    .portafolio-title{
+        margin-bottom: 8%;
+    }
+
+    .card{
+        border: none;
+    }
+
+    
+    .card-title{
+        font-size: 2rem;
+    }
+    .card-text{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        
+		border-radius: 3rem; 
+		letter-spacing: .25rem;
+		font-size: 1em;
+		font-weight: 400;
+		border-color: map-get($palette, main-color);
+		padding: .8rem 1.7rem;
+		color: map-get($palette, main-color);
+    }
+
+    img{
+        margin-right: 2%;
+        width: 25%;		
+        height: 25%;
+        @media screen and (max-width: 576px) {
+            width: 100%;		
+            height: 100%;
+        }
+    }
+}
+

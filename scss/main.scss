@@ -1,0 +1,163 @@
+@import 'vars';
+@import "./partials/navBar";
+@import "./partials/hero";
+@import "./partials/portfolio";
+@import "./partials/skills";
+@import "./partials/footer";
+@import "./partials/wrapper";
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:map-get($palette, sec-color );
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+}
+
+
+/* Animations with JS help*/
+
+
+/* slideIn vertical */
+.toAnimate {visibility:hidden;}
+.slideInNow {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/* fadeIn */
+
+.fadeInNow {
+    /* The name of the animation */
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn; 
+    /* The duration of the animation */
+    animation-duration: 1.5s; 
+    -webkit-animation-duration: 1.5s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+}
+
+.slideToLeftNow{
+    /* The name of the animation */
+    animation-name: slideToLeftNow;
+    -webkit-animation-name: slideToLeftNow; 
+    /* The duration of the animation */
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slideToLeftNow {
+    0% {
+        opacity: 0;
+        transform: translateX(10%);
+
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slideToLeftNow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(10%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+.slideToRightNow{
+    /* The name of the animation */
+    animation-name: slideToRightNow;
+    -webkit-animation-name: slideToRightNow; 
+    /* The duration of the animation */
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+@keyframes slideToRightNow {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%);
+
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-10%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+
+
