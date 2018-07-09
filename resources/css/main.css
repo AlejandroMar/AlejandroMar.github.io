@@ -188,6 +188,10 @@
   .portfolio a:first-child {
     width: 25%;
     height: 25%; }
+    @media screen and (max-width: 576px) {
+      .portfolio a:first-child {
+        width: 100%;
+        height: 100%; } }
   .portfolio img {
     margin-right: 2%;
     width: 100%;
