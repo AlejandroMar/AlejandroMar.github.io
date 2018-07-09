@@ -171,7 +171,8 @@
   .portfolio .portafolio-title {
     margin-bottom: 8%; }
   .portfolio .card {
-    border: none; }
+    border: none;
+    padding: 10% 0; }
   .portfolio .card-title {
     font-size: 2rem; }
   .portfolio .card-text {
@@ -184,10 +185,13 @@
     border-color: #326c85;
     padding: .8rem 1.7rem;
     color: #326c85; }
-  .portfolio img {
-    margin-right: 2%;
+  .portfolio a:first-child {
     width: 25%;
     height: 25%; }
+  .portfolio img {
+    margin-right: 2%;
+    width: 100%;
+    height: 100%; }
     @media screen and (max-width: 576px) {
       .portfolio img {
         width: 100%;
