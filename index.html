@@ -2,185 +2,184 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="resources/css/main.css">
-    <script defer src="./vendors/fonts/fontawesome-all.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
-    <title>AlejandorMar Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="resources/css/main.css">
+  <script defer src="./vendors/fonts/fontawesome-all.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+  <title>AlejandorMar Portfolio</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
-    <!-- HEADER -->
-    <header class='sideBar d-flex align-items-center justify-content-center'>
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="navbar-icon">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sideBarNav" aria-controls="#sideBarNav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <!-- HEADER -->
+  <header class='sideBar d-flex align-items-center justify-content-center'>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="navbar-icon">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sideBarNav" aria-controls="#sideBarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="sideBarNav">
+        <ul class="navbar navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#hero-section">ABOUT ME
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="wrapper">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero-section">
+      <div class="container">
+        <div class="hero-block">
+          <h1>Alejandro</h1>
+          <h3 class="my-3">Web developer</h3>
+          <p>I'm a junior web develper from Latin America, I love the logic of programing and creating products that fill people's
+            lives with value</p>
+          <hr>
+          <p class="lema">Deep work, creative work, great life.</p>
+          <p>
+            <a class="btn btn-outline btn-lg" href="#portfolio" role="button">Go to portafolio</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="portafolio-title toAnimate slideIn">Portfolio</h2>
+        <!-- calculator -->
+        <div class="card flex-sm-row">
+          <a href="https://alejandromar.github.io/calculator/" target="_blank" class="card-img-top toAnimate fadeIn">
+            <img src="./resources/img/calc.png" alt="Card image cap">
+          </a>
+          <div class="card-body toAnimate  slideToLeft">
+            <h5 class="card-title">Calculator</h5>
+            <p class="card-text mb-4">A fully functional calculator writen in javascript, it handles expressions and respects the order of operations</p>
+            <a href="https://alejandromar.github.io/calculator/" target="_blank" class="btn btn-outline">Visit</a>
+          </div>
+        </div>
+        <hr class="toAnimate fadeIn">
+        <!-- Que nota -->
+        <div class="card flex-sm-row">
+          <a href="https://shielded-taiga-24056.herokuapp.com/" target="_blank" class="card-img-top toAnimate fadeIn">
+
+            <img class="card-img-top toAnimate fadeIn" src="./resources/img/que-nota.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body toAnimate  slideToLeft">
+            <h5 class="card-title">Que Nota</h5>
+            <p class="card-text mb-4">A nice CRUD application for taking notes</p>
+            <a href="https://shielded-taiga-24056.herokuapp.com/" target="_blank" class="btn btn-outline">Visit</a>
+          </div>
+        </div>
+
+        <hr class="toAnimate fadeIn">
+
+        <!-- tick tack -->
+        <div class="card flex-sm-row">
+          <a href="https://alejandromar.github.io/go-tick-tack-go/" target="_blank" class="card-img-top toAnimate fadeIn">
+
+            <img class="card-img-top toAnimate fadeIn" src="./resources/img/tic-tack.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body toAnimate  slideToLeft">
+            <h5 class="card-title">Tick Tack Toe game</h5>
+            <p class="card-text mb-4">This is a very cool game</p>
+            <a href="https://alejandromar.github.io/go-tick-tack-go/" target="_blank" class="btn btn-outline">Visit</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- skills -->
+
+    <section class="skills" id="skills">
+      <h2 class="skills-header mb-5 toAnimate  slideToRight">My skills</h2>
+      <div class="container my-container">
+        <div class="row skill-row">
+          <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
+            <i class="fab fa-html5 fa-3x toAnimate fadeIn"></i>
+            <div class="media-body">
+              <h5 class="mt-4 toAnimate fadeIn">HTML</h5>
+
             </div>
-            <div class="collapse navbar-collapse" id="sideBarNav">
-                <ul class="navbar navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#hero-section">ABOUT ME
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">SKILLS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-
-    <div class="wrapper">
-
-        <!-- HERO SECTION -->
-        <section class="hero-section" id="hero-section">
-            <div class="container">
-                <div class="hero-block">
-                    <h1>Alejandro</h1>
-                    <h3 class="my-3">Web developer</h3>
-                    <p>I'm a junior web develper from Latin America, I love the logic of programing and creating products that
-                        fill people's lives with value</p>
-                    <hr>
-                    <p class="lema">Deep work, creative work, great life.</p>
-                    <p>
-                        <a class="btn btn-outline btn-lg" href="#portfolio" role="button">Go to portafolio</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- PORTFOLIO -->
-
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <h2 class="portafolio-title toAnimate slideIn">Portfolio</h2>
-                <!-- calculator -->
-                <div class="card flex-sm-row">
-                    <a href="https://alejandromar.github.io/calculator/" class="card-img-top toAnimate fadeIn">
-                        <img src="./resources/img/calc.png" alt="Card image cap">
-                    </a>
-                    <div class="card-body toAnimate  slideToLeft">
-                        <h5 class="card-title">Calculator</h5>
-                        <p class="card-text mb-4">A fully functional calculator writen in javascript, it handles expressions and respects the order
-                            of operations</p>
-                        <a href="https://alejandromar.github.io/calculator/" class="btn btn-outline">Visit</a>
-                    </div>
-                </div>
-                <hr class="toAnimate fadeIn">
-                <!-- Que nota -->
-                <div class="card flex-sm-row">
-                    <a href="https://shielded-taiga-24056.herokuapp.com/" class="card-img-top toAnimate fadeIn">
-
-                        <img class="card-img-top toAnimate fadeIn" src="./resources/img/que-nota.jpg" alt="Card image cap">
-                    </a>
-                    <div class="card-body toAnimate  slideToLeft">
-                        <h5 class="card-title">Que Nota</h5>
-                        <p class="card-text mb-4">A nice CRUD application for taking notes</p>
-                        <a href="https://shielded-taiga-24056.herokuapp.com/" class="btn btn-outline">Visit</a>
-                    </div>
-                </div>
-
-                <hr class="toAnimate fadeIn">
-
-                <!-- tick tack -->
-                <div class="card flex-sm-row">
-                    <a href="https://alejandromar.github.io/go-tick-tack-go/" class="card-img-top toAnimate fadeIn">
-
-                        <img class="card-img-top toAnimate fadeIn" src="./resources/img/tic-tack.jpg" alt="Card image cap">
-                    </a>
-                    <div class="card-body toAnimate  slideToLeft">
-                        <h5 class="card-title">Tick Tack Toe game</h5>
-                        <p class="card-text mb-4">This is a very cool game</p>
-                        <a href="https://alejandromar.github.io/go-tick-tack-go/" class="btn btn-outline">Visit</a>
-                    </div>
-                </div>
+          </div>
+          <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
+            <i class="fab fa-css3 fa-3x toAnimate fadeIn"></i>
+            <div class="media-body">
+              <h5 class="mt-4 toAnimate fadeIn">CSS</h5>
 
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
+            <i class="fab fa-js-square fa-3x toAnimate fadeIn"></i>
+            <div class="media-body">
+              <h5 class="mt-4 toAnimate fadeIn">Javascript</h5>
 
-        <!-- skills -->
-
-        <section class="skills" id="skills">
-            <h2 class="skills-header mb-5 toAnimate  slideToRight">My skills</h2>
-            <div class="container my-container">
-                <div class="row skill-row">
-                    <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fab fa-html5 fa-3x toAnimate fadeIn"></i>
-                        <div class="media-body">
-                            <h5 class="mt-4 toAnimate fadeIn">HTML</h5>
-
-                        </div>
-                    </div>
-                    <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fab fa-css3 fa-3x toAnimate fadeIn"></i>
-                        <div class="media-body">
-                            <h5 class="mt-4 toAnimate fadeIn">CSS</h5>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row skill-row">
-                    <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fab fa-js-square fa-3x toAnimate fadeIn"></i>
-                        <div class="media-body">
-                            <h5 class="mt-4 toAnimate fadeIn">Javascript</h5>
-
-                        </div>
-                    </div>
-                    <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fab fa-sass fa-3x toAnimate fadeIn"></i>
-                        <div class="media-body">
-                            <h5 class="mt-4 toAnimate fadeIn">Sass</h5>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row skill-row">
-                    <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fab fa-react fa-3x toAnimate fadeIn"></i>
-                        <div class="media-body">
-                            <h5 class="mt-4 toAnimate fadeIn">React</h5>
-
-                        </div>
-                    </div>
-                    <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fab fa-node fa-3x toAnimate fadeIn"></i>
-                        <div class="media-body">
-                            <h5 class="mt-4 toAnimate fadeIn">Node.js</h5>
-
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
+          </div>
+          <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
+            <i class="fab fa-sass fa-3x toAnimate fadeIn"></i>
+            <div class="media-body">
+              <h5 class="mt-4 toAnimate fadeIn">Sass</h5>
 
-        <footer id="contact" class="footer">
-            <div>
-                <p class="contact-text">Get in touch
-                    <a href="#">linkedin</a>
-                </p>
             </div>
-        </footer>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
+            <i class="fab fa-react fa-3x toAnimate fadeIn"></i>
+            <div class="media-body">
+              <h5 class="mt-4 toAnimate fadeIn">React</h5>
 
-    </div>
+            </div>
+          </div>
+          <div class="media col-12 col-md-6 d-flex flex-column align-items-center">
+            <i class="fab fa-node fa-3x toAnimate fadeIn"></i>
+            <div class="media-body">
+              <h5 class="mt-4 toAnimate fadeIn">Node.js</h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div>
+        <p class="contact-text">Get in touch
+          <a href="#">linkedin</a>
+        </p>
+      </div>
+    </footer>
+
+  </div>
 
 
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./resources/js/index.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./resources/js/index.js"></script>
 </body>
 
 </html>
