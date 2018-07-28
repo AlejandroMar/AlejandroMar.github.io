@@ -1,20 +1,23 @@
-.footer{
-    height: 120px;
-    text-align: center;
-    background-color: map-get($palette, main-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    font-size: 1.5rem;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
-    
-    a{
-        display: block;
-        color: white;
-        text-decoration: underline;
-    }
-    .contact-text{
-        transform: translateY(35%);
-    }
+.footer {
+  height: 120px;
+  text-align: center;
+  background-color: map-get($palette, main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+
+  a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  .contact-text {
+    transform: translateY(35%);
+    color: red;
+  }
 }
