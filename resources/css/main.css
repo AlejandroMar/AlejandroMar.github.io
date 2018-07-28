@@ -119,7 +119,7 @@
     font-weight: 300;
     margin-top: 1rem;
     border-radius: 3rem;
-    letter-spacing: .25em;
+    letter-spacing: 0.25em;
     font-size: 1.2rem;
     border-color: white;
     padding: 1rem 1.5rem;
@@ -146,7 +146,7 @@
       font-weight: 400;
       margin-top: 1rem;
       border-radius: 3rem;
-      letter-spacing: .2em;
+      letter-spacing: 0.2em;
       font-size: 1.4rem;
       border-color: white;
       padding: 1rem 2rem;
@@ -244,7 +244,7 @@
       border-bottom: none; } }
 
 .footer {
-  height: 120px;
+  height: 160px;
   text-align: center;
   background-color: #326c85;
   display: flex;
@@ -252,9 +252,11 @@
   align-items: center;
   font-size: 1.5rem;
   padding: 2rem 0;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px; }
   .footer a {
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: underline; }
   .footer .contact-text {

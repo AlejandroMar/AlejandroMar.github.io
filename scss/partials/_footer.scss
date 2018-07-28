@@ -1,5 +1,5 @@
 .footer {
-  height: 120px;
+  height: 160px;
   text-align: center;
   background-color: map-get($palette, main-color);
   display: flex;
@@ -8,13 +8,13 @@
   font-size: 1.5rem;
   padding: 2rem 0;
   padding-bottom: 3rem;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
 
   a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    padding-bottom: 20px;
-    margin-bottom: 50px;
   }
   .contact-text {
     transform: translateY(35%);
