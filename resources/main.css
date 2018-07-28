@@ -260,8 +260,7 @@
     padding-bottom: 20px;
     margin-bottom: 50px; }
   .footer .contact-text {
-    transform: translateY(35%);
-    color: red; }
+    transform: translateY(35%); }
 
 .wrapper {
   width: 79vw;
